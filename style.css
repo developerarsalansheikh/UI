@@ -1,245 +1,87 @@
 *{
-    margin: 0%;
     padding: 0%;
-    box-sizing: border-box;  
+    margin: 0%;
+    box-sizing: border-box;
+    user-select: none;
 }
 body{
-    height: 100vh;
-    width: 100vw;
-    background-color: #E3F4FC;
+    height: 99vh;
+    width: 100%;
+    background-color: black;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 .container{
     height: 420px;
-    width: 800px;
+    width: 300px;
     background-color: white;
-    border-radius: 20px;
+}
+nav{
+    height: 50px;
+    width: 300px;
     display: flex;
+    align-items: center;
+    c
+}
+#one{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 2px solid red;
 }
 .box{
-    height: 420px;
-    width: 400px;  
-     border-radius: 20px 0px 0px 20px; 
-    padding-left: 35px;
-    
-}
-.section1{
-    height: 70px;
-    width: 330px;
+    height: 250px;
+    width: 300px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJi1rMf-b_EcLsAvbUkDbL1fEBw5zVH72fC50g8sF1cdiU1IhM);
+    background-position: center;
+    background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
-ul{
-    font-size: 20px;
-    font-weight: 200;
+#heart{
+     height: 30%;
+     display: none;
 }
-.section1 p{
-    font-size: 14px;
-    text-decoration: underline;
-}
-.section2{
-     height: 60px;
-     width: 330px;
-     
-}
-p{
-    color: #949fa4;
-    font-size: 16px;
-    padding-bottom: 8px;
-}
-.one{
-    height: 38px;
-    width: 330px;
-    border: 1px solid grey;
-    border-radius: 4px;
-}
-.section3{
-    height: 60px;
-     width: 330px;
-       display: flex;  
-     margin-top: 10px;
-}
- .two1{
-    height: 70px;
-    width: 165px;
-} 
- .two2{
-    height: 70px;
-    width: 165px;
-   margin-left: 15px;
-} 
-.two{
-    height: 38px;
-    width: 155px;
-    border: 1px solid grey;
-    border-radius: 4px;
+.icon{
+    height: 40px;
+    width: 300px;
     display: flex;
     align-items: center;
-}
-.section4{
-    height: 180px;
-    width: 330px;
-    margin-top: 10px;
-    position: relative;
 
 }
-.three{
-    height: 38px;
-    width: 330px;
-    border: 1px solid grey;
-    border-radius: 4px;
-    margin-top: 10px;
+.fa-bookmark{
+    margin-left: 150px;
+}
+i{
+    color: black;
+    font-size: 18px;
+    margin: 10px;
+}
+.like{
+    height: 30px;
+    width: 300px;
     display: flex;
     align-items: center;
+   
+    p{
+        font-size: 14px;
+    }
+    h5{
+margin: 5px;
+    }
 }
 .circle{
-    height: 15px;
-    width: 15px;
+    height: 20px;
+    width: 20px;
     border-radius: 50%;
-    border: 1px solid grey;
-    margin: 20px;
+    background-image: url(https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png);
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
 }
-li{
-    list-style: none;
-}
-.button{
-    height: 40px;
-    width: 240px;
-    border-radius: 50px;
-    background-color: yellow;
-    position: absolute;
-    bottom: 0px;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.boxes{
-    height: 420px;
-    width: 400px;
-    background-color: #133040;
-    border-radius: 0px 20px 20px 60px ;
-    color: white; 
-     font-weight: lighter;
-}
-img{
-  margin-inline-start: 100px;
-  margin-top: 60px;
-  height: 200px;
-}
-h2{
-       margin-inline-start: 100px;
-       padding-bottom: 10px;
-}
-.boxes p{
-    margin-inline-start: 50px;
-    color: #8ca9bb;
-}
-
-
-
-@media (max-width: 768px){
-    body{
-        height: 200vh;
-        width: 100%;
-        background-color: #E3F4FC;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-  .container{
-        height: 1000px;
-        width: 400px;
-        background-color: white;
-        display: inline;
-        border-radius: 0px;
-    }
-    .box{
-        height: 600px;
-        width: 400px;  
-         border-radius: 0px; 
-        padding: 30px;
-        
-    }
-    .section1{
-        height: 100px;
-        width: 330px;
-        display: inline;
-      
-    }
-    ul{
-        font-size: 25px;
-        margin-bottom: 10px;
-    }
-    .section1 p{
-        text-decoration: underline;
-    }
-    .section2{
-        height: 80px;
-        width: 330px;
-        margin-block: 20px;
-    }
-   p{
-       color: #949fa4;
-       padding-bottom: 8px;
-       font-size: 18px;
-   }
-   .one{
-       height: 45px;
-       width: 330px;
-       border: 1px solid grey;
-       border-radius: 4px;
-   } 
-   .section3{
-    height: 160px;
-     width: 330px;
-       display: inline;  
-     margin-top: 10px;
-    }
-    .two1{
-      height: 80px;
-      width: 330px;
-    } 
-    .two2{
-       height: 80px;
-       width: 330px;
-       margin: 0%;
-    } 
-    .two{
-       height: 45px;
-       width: 330px;
-       border: 1px solid grey;
-       border-radius: 4px;
-    
-    }
-    .section4{
-        height: 180px;
-        width: 330px;
-        margin-top: 10px;
-        position: relative;
-    
-    }
-    .three{
-        height: 40px;
-        width: 330px;
-        border: 1px solid grey;
-        border-radius: 4px;
-        margin-top: 10px;
-        display: flex;
-        align-items: center;
-    }
-    .boxes{
-        height: 420px;
-        width: 400px;
-        background-color: #133040;
-        border-radius: 0px;
-    }
-    .boxes p{
-        margin-inline: 60px;
-        color: #8ca9bb;
-    }
-    
+h4{
+    margin-left: 10px;
 }
